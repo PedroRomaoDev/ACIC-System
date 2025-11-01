@@ -13,9 +13,8 @@ const Home = () => {
       <h1>Main aqui</h1>
       <h1>Main aqui</h1>
       <h1>Main aqui</h1>
-      <footer>
-        <Footer />
-      </footer>
+
+      <Footer />
     </div>
   );
 };

@@ -4,7 +4,7 @@ const Footer = () => {
   const LinkClassName =
     "no-underline text-white text-[18px] transition-colors duration-300 hover:text-primary";
   return (
-    <div>
+    <footer>
       <div className="box-border flex h-[312px] w-full items-center justify-around bg-[#000536] p-5 text-[24px] text-white">
         <div className="h-[114px] w-[208px]">
           <img src={logoSrc} alt="Logo" />
@@ -42,7 +42,7 @@ const Footer = () => {
       <div className="flex h-[42px] w-full items-center justify-center border-t border-[#000536] bg-white text-[16px] font-bold text-[#000536]">
         <p>ACIC 2024 TODOS OS DIREITOS RESERVADOS</p>
       </div>
-    </div>
+    </footer>
   );
 };
 
