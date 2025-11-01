@@ -21,7 +21,7 @@ const HeaderHome = () => {
   };
 
   const linkClassName =
-    "font-sans mx-4 h-9 rounded bg-transparent text-[15px] font-semibold leading-9 tracking-[1px] text-white no-underline";
+    "hover:opacity-85 font-sans mx-4 h-9 rounded bg-transparent text-[15px] font-semibold leading-9 tracking-[1px] text-white no-underline";
 
   return (
     <div>
@@ -56,11 +56,21 @@ const HeaderHome = () => {
           </a>
         </div>
         <div className="flex gap-6">
-          <button onClick={handlePerfilClick} className="ml-6">
-            <img src={perfilSrc} alt="Ícone" className="h-[34px] w-[34px]" />
+          <button
+            onClick={handlePerfilClick}
+            className="ml-6 h-[45px] w-[40px] hover:opacity-85"
+          >
+            <img
+              src={perfilSrc}
+              alt="Ícone"
+              className="h-full w-full object-contain"
+            />
           </button>
 
-          <button onClick={handleSettingsClick} className="ml-6">
+          <button
+            onClick={handleSettingsClick}
+            className="ml-6 hover:opacity-85"
+          >
             <img src={settingsSrc} alt="Ícone" className="h-[40px] w-[40px]" />
           </button>
         </div>
