@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Inter", "sans-serif"],
+        jost: ["Jost", "sans-serif"],
       },
       colors: {
         primary: "#FF8C40", // nome da cor
