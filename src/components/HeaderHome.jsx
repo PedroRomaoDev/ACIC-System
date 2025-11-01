@@ -21,18 +21,18 @@ const HeaderHome = () => {
   };
 
   const linkClassName =
-    "font-inter mx-4 h-9 rounded bg-transparent text-[15px] font-bold leading-9 tracking-[1.65px] text-white no-underline";
+    "font-sans mx-4 h-9 rounded bg-transparent text-[15px] font-semibold leading-9 tracking-[1px] text-white no-underline";
 
   return (
     <div>
-      <div className="font-inter z-2 relative flex h-[38px] w-full items-center justify-end bg-[#f1f1f1] text-sm font-bold text-black">
+      <div className="relative flex h-[38px] w-full items-center justify-end bg-[#f1f1f1] text-sm font-bold text-black">
         <p className="pr-[61px]">
           NOVIDADES NO ACIC SYSTEM {">"} CONFIRA AGORA E FAÇA PARTE, NOVAS
           FUNCIONALIDADES INOVADORAS
         </p>
       </div>
 
-      <header className="flex h-[100px] w-full items-center justify-between bg-[#091057] px-[146px]">
+      <header className="flex h-[100px] w-full items-center justify-between bg-[#091057] px-[120px]">
         <div>
           <button
             onClick={handleLogoClick}
